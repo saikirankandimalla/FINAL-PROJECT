@@ -26,18 +26,26 @@
                     <input type="password" id="password" name="password" required>
                 </div>
                 <div class="input-group" >
-                <a href="otp.html"id="sub" style="color:white" ><button class="submit">SIGN UP</a></button>
+                <a href="otp.html"id="sub" style="color:white" onclick="register()" ><button class="submit">SIGN UP</a></button>
                 </div>
             </form>
             <div class="social-signup">
                 <p>or sign up with</p>
                 <div class="social-icons">
                     <a href="#"><img src="https://i.pinimg.com/564x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook"></a>
-                    <a href="#"><img src="https://i.pinimg.com/564x/8b/56/31/8b563165d8293f0f0e5372cb8452e4dc.jpg" alt="Google"></a>
+                    <a href="#" onclick="googleSignIn()"><img src="https://i.pinimg.com/564x/8b/56/31/8b563165d8293f0f0e5372cb8452e4dc.jpg" alt="Google"></a>
                     <a href="#"><img src="https://i.pinimg.com/564x/cf/11/eb/cf11ebcc0a874e3ad3830431f7b0ab58.jpg" alt="Apple"></a>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="authent.js"></script>
 </html>
