@@ -1,0 +1,14 @@
+{
+  "Order & Booking Management": {
+    "Booking a Service": {
+      "Service": "Plumber",
+      "amount": 90,
+      "bookingId": 1245,
+      "date": "2024-08-23",
+      "serviceId": 310201,
+      "status": "pending",
+      "time": "7:00",
+      "userId": 210301
+    }
+  }
+}
