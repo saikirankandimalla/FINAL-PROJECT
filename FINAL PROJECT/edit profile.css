@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height:auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.profile-photo {
+    text-align: center;
+}
+
+.profile-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.change-photo {
+    background: none;
+    border: none;
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-section, .personal-details {
+    width: 45%;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #666;
+    font-style: italic;
+}

@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .header .logo {
+    display: inline-block;
+    margin-right: auto;
+  }
+  
+  .header .nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  .header .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .user-info .details {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .user-info .details h3 {
+    margin: 0;
+  }
+  
+  .services {
+    margin-bottom: 20px;
+  }
+  
+  .services h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .services .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .services .option input {
+    margin-right: 10px;
+  }
+  
+  .services .option label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .total {
+    margin-bottom: 20px;
+  }
+  
+  .total h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .total .amount {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reviews {
+    margin-bottom: 20px;
+  }
+  
+  .reviews h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .reviews .review {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .reviews .review .star-rating {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .reviews .review .star-rating i {
+    color: #ffc107;
+  }
+  
+  .reviews .review .author {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .reviews .review .comment {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .orders {
+    margin-bottom: 20px;
+  }
+  
+  .orders h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .orders .order {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .orders .order .details {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .orders .order .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
